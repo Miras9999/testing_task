@@ -1,0 +1,32 @@
+.menu_item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dropdown:hover >.dropdown-menu{
+    display: block !important;
+}
+
+.dropdown-submenu:hover > .dropdown-menu{
+    display: block !important;
+      left: 100%;
+      margin-top: -37px;
+}
+  
+.dropdown-item{
+    font-size: small;
+}
+
+.dropdown-toggle::after{
+    font-size: var(--font-md);
+    margin-bottom: -2px;
+}
+.dropdown-menu li a.active{
+    color:#fff;
+}
+  
+.custom-toggle-arrow{
+        font-size: 18px;
+        margin-top: 1px;
+        line-height: 12px;
+}
